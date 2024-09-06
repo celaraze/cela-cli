@@ -1,7 +1,7 @@
 import os
+from datetime import datetime
 
 import yaml
-from datetime import datetime
 
 CONFIG_FILE_PATH = os.path.join(os.path.expanduser('~'), '.cela', 'config.yml')
 

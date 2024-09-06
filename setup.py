@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='cela',
-    version='0.0.5-alpha',
+    version='0.0.6-alpha',
     packages=find_packages(),
     description='A command client for CELA.',
     long_description=open('README.md').read(),
@@ -24,7 +24,7 @@ setup(
     install_requires=['pyyaml', 'pymysql', 'rich', 'httpx', 'fire', 'pick'],
     entry_points={
         'console_scripts': [
-            'cela=client.main:main',
+            'cela=app.main:main',
         ],
     },
 )

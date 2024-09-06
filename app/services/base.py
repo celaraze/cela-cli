@@ -1,9 +1,8 @@
 import httpx
 from pick import pick
 
-from services import config, auth
-
-from util import trans
+from . import config, auth
+from ..util import trans
 
 
 def connect(server_url: str):

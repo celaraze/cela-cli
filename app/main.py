@@ -1,6 +1,6 @@
 import fire
 
-from services import base, todo
+from .services import base, todo
 
 
 class ConfigCommands:

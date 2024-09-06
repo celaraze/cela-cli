@@ -1,8 +1,7 @@
 import os
+
 import yaml
 from rich import print
-
-from util import trans
 
 CONFIG_FILE_PATH = os.path.join(os.path.expanduser('~'), '.cela', 'config.yml')
 

@@ -1,8 +1,8 @@
 import httpx
-from .config import read_server_url, read_access_token
 from rich.console import Console
 from rich.table import Table
 
+from .config import read_server_url, read_access_token
 from ..util import trans
 
 console = Console()
